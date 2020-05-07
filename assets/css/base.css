@@ -1,0 +1,35 @@
+:root {
+    --primary-bg: #0b0c11;
+    --primary-color: #8067f8;
+    --second-color: #868c94;
+    --third-color: #db6e5d;
+    --white-color: #fbfbfb;
+    --text-color: #848484;
+    --border-color: #8067f5;
+}
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.grid {
+    width: 100%;
+    display:block;
+}
+
+.wide {
+    max-width: 100%;
+    margin: auto;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
